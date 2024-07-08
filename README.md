@@ -11,7 +11,7 @@ Standing on [Baileys](https://github.com/WhiskeySockets/Baileys) Library.
 Install the package using the npm
 
 ```
-npm install synbussolutions-md
+npm install synbussolutions-whatsapp
 ```
 
 Then import your code
@@ -19,13 +19,13 @@ Then import your code
 Use JS Module
 
 ```ts
-import * as whatsapp from "synbussolutions-md";
+import * as whatsapp from "synbussolutions-whatsapp";
 ```
 
 or use CommonJS
 
 ```ts
-const whatsapp = require("synbussolutions-md");
+const whatsapp = require("synbussolutions-whatsapp");
 ```
 
 ## Session Usage/Examples
