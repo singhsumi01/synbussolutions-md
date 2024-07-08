@@ -37,13 +37,13 @@ export const startSession = async (
     const { state, saveCreds } = await useMultiFileAuthState(
       path.resolve(CREDENTIALS.DIR_NAME, sessionId + CREDENTIALS.PREFIX)
     );
-    let browser_end = Browsers.macOS(["VelixS", "Safari", "3.0"])
+    let browser_end = Browsers.macOS(["SynbusSolutionsB", "Safari", "3.0"])
     switch(BROWSERS_DISPLAY.BROWSERS){
       case "macOS":
-        browser_end = Browsers.macOS(["VelixS", "Safari", "3.0"])
+        browser_end = Browsers.macOS(["SynbusSolutionsB", "Safari", "3.0"])
         break
       default:
-          browser_end = [BROWSERS_DISPLAY.BROWSERS ?? "VelixS", "Safari", "3.0"]
+          browser_end = [BROWSERS_DISPLAY.BROWSERS ?? "SynbusSolutionsB", "Safari", "3.0"]
           break
     }
     const sock: WASocket = makeWASocket({
