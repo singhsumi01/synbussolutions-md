@@ -210,7 +210,7 @@ whatsapp.setCredentialsDir("my_custom_dir");
 
 Set custom Browser
 ```ts
-// Default browser is chrome
+// Default browser is SynbusSolutionsB
 whatsapp.setBrowser("macOS");
 // or any other your custom name
 ```
